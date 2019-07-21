@@ -1,22 +1,24 @@
 {
-  "name": "supertest",
-  "version": "4.0.2",
+  "name": "supertest-with-proxy",
+  "version": "5.0.1",
   "description": "SuperAgent driven library for testing HTTP servers",
   "main": "index.js",
   "author": "TJ Holowaychuk",
   "contributors": [
-    "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>"
+    "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>",
+    "Tauheed khan <tauheed.khan@outlook.com>"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/visionmedia/supertest.git"
+    "url": "https://github.com/tauheedkhan/supertest"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "keywords": [
     "superagent",
+    "supertest proxy",
     "request",
     "tdd",
     "bdd",
@@ -33,7 +35,8 @@
   },
   "dependencies": {
     "methods": "^1.1.2",
-    "superagent": "^3.8.3"
+    "superagent": "^3.8.3",
+    "superagent-proxy": "^2.0.0"
   },
   "devDependencies": {
     "body-parser": "^1.18.3",
